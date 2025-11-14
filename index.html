@@ -1,109 +1,50 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ETHIGONE — Coming Soon</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Inter", sans-serif;
-      background: linear-gradient(135deg, #2D1657, #8247e5 80%);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    .container {
-      background: rgba(255, 255, 255, 0.07);
-      padding: 40px;
-      border-radius: 20px;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-      max-width: 480px;
-      animation: fadeIn 1.2s ease-out;
-    }
-
-    h1 {
-      font-size: 2.6rem;
-      margin-bottom: 10px;
-      font-weight: 800;
-      color: #C0C0C0; /* argent */
-      letter-spacing: 0.5px;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-      font-weight: 300;
-      margin-bottom: 25px;
-      color: #e6e6e6;
-    }
-
-    .logo {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-      border: 2px solid rgba(255, 255, 255, 0.3);
-      object-fit: cover;
-      box-shadow: 0 0 20px rgba(255,255,255,0.2);
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.5;
-      margin-bottom: 25px;
-      color: #e3e3e3;
-    }
-
-    .highlight {
-      color: #1ABC9C;
-      font-weight: 600;
-    }
-
-    .footer {
-      margin-top: 20px;
-      font-size: 0.85rem;
-      opacity: 0.6;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @media (max-width: 600px) {
-      h1 { font-size: 2.1rem; }
-      .container { margin: 20px; padding: 30px; }
-    }
-  </style>
+  <title>ETHIGONE – Ethical Web3 Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="logo.png" />
 </head>
+
 <body>
+  <div class="glow-frame"></div>
 
-  <div class="container">
-    <img src="logo.jpeg" alt="ETHIGONE Logo" class="logo" />
+  <section class="container">
+    <img src="logo.png" alt="ETHIGONE Logo" class="logo" />
 
-    <h1>ETHIGONE</h1>
-    <h2>Marketplace éthique — Arrive bientôt.</h2>
+    <h1 class="title">ETHIGONE</h1>
+    <h2 class="subtitle">The Ethical Web3 Marketplace</h2>
 
-    <p>
-      Nous construisons une plateforme <span class="highlight">Web3 éthique</span>
-      basée sur Polygon, intégrant swaps sécurisés, tokens responsables,
-      scoring éthique, NFT à impact et gouvernance transparente.
-      <br /><br />
-      Un nouvel écosystème. Une nouvelle vision.
+    <p class="description">
+      A new generation of transparent, fair and value-driven digital finance.<br/>
+      Built on Polygon. Powered by ethics. Launching soon.
     </p>
 
-    <p class="footer">
-      © 2025 ETHIGONE — Tous droits réservés.
-    </p>
-  </div>
+    <div class="neon-divider"></div>
+
+    <p class="soon">⚡ Coming Soon</p>
+
+    <div class="features">
+      <div class="feature-box">
+        <span class="icon">🔷</span>
+        Ethical Digital Assets
+      </div>
+      <div class="feature-box">
+        <span class="icon">💠</span>
+        Cross-Chain Swaps
+      </div>
+      <div class="feature-box">
+        <span class="icon">🛡️</span>
+        Transparent & Secure
+      </div>
+    </div>
+
+    <footer class="footer">
+      © 2025 ETHIGONE · All rights reserved.
+    </footer>
+  </section>
 
 </body>
 </html>
